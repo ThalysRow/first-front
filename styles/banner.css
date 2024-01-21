@@ -9,9 +9,15 @@
     background-image: var(--cor-do-fundo-baner);
 }
 
+.banner .texto-banner {
+    display: none;
+}
+
 .avatar {
     margin-top: 30px;
-    margin-left: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .texto-titulo {
@@ -50,4 +56,64 @@
 
 .cv {
     margin-top: 5px;
+}
+
+@media screen and (min-width: 1280px){ 
+
+    .banner .imagem-banner {
+        display: none;
+    }
+
+    .banner {
+        margin-top: 40px;
+        width: auto;
+        height: 632px;
+        background-image: var(--cor-do-fundo-baner);
+        border-radius: 44px;
+    }
+
+    .avatar {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+    }
+
+    .texto-titulo {
+        font-size: 44px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+    }
+
+    .banner .texto-banner {
+        display: block;
+    }
+
+    .texto-banner {
+        font-family: var(--font-texto-menu);
+        font-size: 60px;
+        margin-top: 8px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-weight: 500;
+        
+    }
+
+    .botoes {
+        margin-top: 42px;
+        justify-content: center;
+        column-gap: 16px;
+
+    }
+
+    .botao-contato {
+        width: 130px;
+        height: 37px;
+    }
+
+    .cv {
+        width: 130px;
+        height: 37px;
+    }
 }
