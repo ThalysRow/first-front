@@ -4,9 +4,12 @@
 
 :root {
     --font-texto-menu:'Poppins', sans-serif;
+    --font-texto-apresentacao:'Nunito', sans-serif;
     --cor-de-fundo-pagina: #FBFEFD;
     --cor-fundo-menu: #FFFFFF;
     --cor-texto-menu1:#f59e0b;
     --cor-texto-menu2: #38bdf8;
     --cor-texto-menu3: #34d399;
+    --cor-do-fundo-baner: linear-gradient(to right,#FFF278,#40C4FF);
+    --cor-botao: #111827;
 }

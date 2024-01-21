@@ -1,0 +1,52 @@
+.banner {
+    position: absolute;
+    top: 120px;
+    width: 327px;
+    height: 530px;
+    right: 24px;
+    left: 24px;
+    border-radius: 20px;
+    background-image: var(--cor-do-fundo-baner);
+}
+
+.avatar {
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+.texto-titulo {
+    font-family: var(--font-texto-apresentacao);
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.imagem-banner {
+    margin-top: 10px;
+    margin-left: 21px;
+}
+
+.botao-contato {
+    width: 130px;
+    height: 37px;
+    border-radius: 37px;
+    background-color: var(--cor-botao);
+}
+
+.texto-botao-contato {
+    text-decoration: none;
+    font-family: var(font-texto-menu);
+    font-size: 14;
+    font-weight: 600;
+    color: var(--cor-fundo-menu)
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.cv {
+    margin-top: 5px;
+}
