@@ -1,0 +1,6 @@
+@import url("./header.css");
+@import url("./global.css");
+
+body {
+    background-color: var(--cor-de-fundo-pagina);
+}
