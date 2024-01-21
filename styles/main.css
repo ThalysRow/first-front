@@ -1,6 +1,7 @@
 @import url("./header.css");
 @import url("./global.css");
 @import url("./banner.css");
+@import url("projetos.css");
 
 body {
     background-color: var(--cor-de-fundo-pagina);

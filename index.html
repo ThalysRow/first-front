@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
     <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
@@ -15,7 +16,7 @@
         </label>
         <ul class="lista-menu">
             <li class="lista-menu-titulo">
-                <a href="#" class="link1">Projetos</a>
+                <a href="#titulo-projetos" class="link1">Projetos</a>
             </li>
             <li class="lista-menu-titulo">
                 <a href="#" class="link2">Sobre mim</a>
@@ -41,5 +42,56 @@
         </a>
         </div>
     </section>
+
+        <h2 id="titulo-projetos" class="titulo-projetos">Últimos<br>Projetos</h2>
+        <h3 class="projeto-nome">Trybetunes</h3>
+        <section class="carrosel">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><button class="botao-tecnologia">React</button></div>
+                <div class="swiper-slide"><button  class="botao-tecnologia">JavaScript</button></div>
+                <div class="swiper-slide"><button  class="botao-tecnologia">TypeScript</button></div>
+                <div class="swiper-slide"><button  class="botao-tecnologia">Nest JS</button></div>
+                <div class="swiper-slide"><button  class="botao-tecnologia">Label</button></div>
+                <div class="swiper-slide"><button  class="botao-tecnologia">Node.Js</button></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </section>
+
+        <section class="projetos-prev">
+            <img class="imagem-projeto" src="./images/image 7.svg" alt="imagem do projeto">
+        </section>
+        <div class="container">
+            <a href="https://github.com/ThalysRow">
+            <p class="texto">GitHub</p>
+            </a>
+            <img src="./images/akar-icons_github-fill.svg">
+            <a href="#">
+                <p class="texto2">Deploy</p>
+            </a>
+            <img src="./images/icone-deploy.svg" alt="imagem do deploy">
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                autoplay: {
+                delay: 3500,
+                },
+            spaceBetween: 10,
+            slidesPerView: 3,
+            });
+        </script>
 </body>
 </html>

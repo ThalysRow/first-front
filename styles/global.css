@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
     --font-texto-menu:'Poppins', sans-serif;
@@ -12,4 +13,5 @@
     --cor-texto-menu3: #34d399;
     --cor-do-fundo-baner: linear-gradient(to right,#FFF278,#40C4FF);
     --cor-botao: #111827;
+    --cor-fundo-projeto: #ed7854
 }

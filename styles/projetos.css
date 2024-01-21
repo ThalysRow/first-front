@@ -1,0 +1,80 @@
+.titulo-projetos {
+    margin-top: 692px;
+    margin-left: 24px;
+    font-family: var(--font-texto-menu);
+    font-size: 56px;
+    font-weight: 500;
+}
+
+.projeto-nome {
+    margin-top: 40px;
+    margin-left: 24px;
+    font-family: var(--font-texto-menu);
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.swiper-wrapper {
+    margin-top: 12px;
+}
+
+.swiper-wrapper button {
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.botao-tecnologia {
+    width: 80px;
+    height: 32px;
+    border-radius: 32px;
+    border: 1px solid #38bdf8;;
+    background-color: var(--cor-texto-menu2);
+    font-size: 16px;
+    font-family: var(--font-texto-menu);
+    color: var(--cor-de-fundo-pagina);
+    font-weight: 400;
+}
+
+.projetos-prev {
+    margin-top: 12px;
+    width: 327px;
+    height: 294px;
+    background-color: var(--cor-fundo-projeto);
+    border-radius: 18px;
+    margin-left: 24px;
+}
+
+.imagem-projeto {
+margin-top: 37.34px;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    margin-top: 12px;
+}
+
+.texto {
+    margin-right: 4px;
+    font-family: var(--font-texto-menu);
+    font-size: 16px;
+    color: var(--cor-botao);
+    font-weight: 500;
+}
+
+.texto2 {
+    margin-left: 20px;
+    margin-right: 4px;
+    font-family: var(--font-texto-menu);
+    font-size: 16px;
+    color: var(--cor-botao);
+    font-weight: 500;
+}
