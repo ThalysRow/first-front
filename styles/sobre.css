@@ -1,0 +1,56 @@
+.sobre {
+    margin-left: 24px;
+    margin-top: 40px;
+    
+}
+
+.foto-sobre {
+    margin-left: 55px;
+}
+
+.descricao-sobre {
+    margin-top: 32px;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.foto-barra {
+    margin-left: 24px;
+    width: 5px;
+    height: 154px;
+}
+
+.texto-sobre {
+    margin-left: 12px;
+    font-size: 16px;
+    font-family: var(--font-texto-apresentacao);
+    color: var(--cor-botao);
+    line-height: 22px;
+}
+
+.texto-skills {
+    margin-top: 32px;
+    font-size: 36px;
+    font-family: var(--font-texto-menu);
+    color: var(--cor-botao);
+    margin-left: 24px;
+}
+
+.skills {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.skill-item {
+    text-align: center;
+    margin: 16px; 
+}
+
+.skill-item p {
+    font-size: 16px;
+    font-family: var(--font-texto-menu);
+    color: var(--cor-botao);
+    font-weight: 500;
+}
