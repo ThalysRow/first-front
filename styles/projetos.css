@@ -51,7 +51,7 @@
 margin-top: 37.34px;
 }
 
-.container a {
+.container a, .container-ver-mais a {
     text-decoration: none;
 }
 
@@ -62,7 +62,7 @@ margin-top: 37.34px;
     margin-top: 12px;
 }
 
-.texto {
+.texto-github {
     margin-right: 4px;
     font-family: var(--font-texto-menu);
     font-size: 16px;
@@ -70,9 +70,24 @@ margin-top: 37.34px;
     font-weight: 500;
 }
 
-.texto2 {
+.texto-deploy {
     margin-left: 20px;
     margin-right: 4px;
+    font-family: var(--font-texto-menu);
+    font-size: 16px;
+    color: var(--cor-botao);
+    font-weight: 500;
+}
+
+.container-ver-mais {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 219px;
+}
+
+.texto-ver-mais {
+    margin-right: 12px;
     font-family: var(--font-texto-menu);
     font-size: 16px;
     color: var(--cor-botao);
