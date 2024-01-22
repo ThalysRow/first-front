@@ -1,3 +1,10 @@
+.footer-desktop {
+    display: none;
+}
+
+.finish-desktop {
+    display: none;
+}
 .footer {
     margin-top: 40px;
     width: 100%;
@@ -63,4 +70,57 @@
 .logo-footer img {
     color: var(--cor-de-fundo-pagina);
 }
-  
+
+@media screen and (min-width: 1280px){
+
+    .footer {
+        width: auto;
+        height: 654;
+        border-radius: 48px 48px 0px 0px;
+    }
+
+    .titulo-contato {
+        display: none;
+    }
+    .logo-footer, .titulo-rodape {
+        display: none;
+    }
+
+    .footer-desktop {
+        display: flex;
+        margin-top: 104px;
+        margin-left: 74px;
+        font-family: var(--font-texto-menu);
+        font-size: 92px;
+        color: var(--cor-de-fundo-pagina);
+    }
+
+    .titulo-contato-2 {
+        margin-top: 8px;
+        margin-left: 74px;
+        font-size: 28px;
+    }
+
+    .email-contato {
+        margin-top: 32px;
+        margin-left: 74px;
+        font-size: 28px;
+        border-bottom: 4px solid var(--cor-de-fundo-pagina);
+        width: 291px;
+    }
+
+    .icones-footer {
+        margin-top: 32px;
+        margin-left: 74px;
+        width: 65px;
+        height: 65px;
+    }
+    
+    .finish-desktop {
+        display: flex;
+        justify-content: center;
+        font-family: var(--font-texto-menu);
+        font-size: 16px;
+        color: var(--cor-de-fundo-pagina);
+    }
+}

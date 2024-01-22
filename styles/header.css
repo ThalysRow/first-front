@@ -2,6 +2,7 @@
     display: flex;
     position: relative;
     z-index: 1;
+    width: auto;
 }
 
 .container-menu {
@@ -50,8 +51,8 @@
     position: absolute;
     top: 40px;
     right: 24px;
-    width: 24px;
-    height: 24px;
+    width: 42px;
+    height: 42px;
     background-image: url("../images/Menu.svg");
    
 }
@@ -59,7 +60,7 @@
 .logo {
     position: absolute;
     top: 40px;
-    left: 24px;
+    
 }
 
 @media screen and (min-width: 1280px){
