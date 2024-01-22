@@ -1,3 +1,11 @@
+.setas-prev {
+    display: none;
+}
+
+.container-projetos {
+    display: none;
+}
+
 .titulo-projetos {
     margin-top: 692px;
     margin-left: 24px;
@@ -92,4 +100,133 @@ margin-top: 37.34px;
     font-size: 16px;
     color: var(--cor-botao);
     font-weight: 500;
+}
+
+@media screen and (min-width: 1280px){ 
+
+    .projeto-nome, .projetos-prev, .container, .container-ver-mais {
+        display: none;
+    }
+
+    .container-projetos {
+        display: block;
+    }
+
+    .carrosel {
+        display: none;
+    }
+    .titulo-projetos {
+        margin-top: 842px;
+        font-size: 92px;
+        margin-left: 90px;
+    }
+
+    .container-projetos a {
+        text-decoration: none;
+    }
+
+    .container-projetos {
+        margin-top: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+
+    .nome-projeto-0 {
+        font-size: 38px;
+        font-family: var(--font-texto-menu);
+        font-weight: 500;
+        letter-spacing: 4px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .projeto-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .tecnologias {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        column-gap: 10px;
+        justify-content: center;
+    }
+
+    .contatos {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .react-name {
+        font-family: var(--font-texto-menu);
+        font-size: 16px;
+        padding: 8px 16px;
+        background-color: var(--cor-texto-menu2);
+        border-radius: 32px;
+        color: var(--cor-de-fundo-pagina);
+    }
+
+    .rest-name {
+        font-family: var(--font-texto-menu);
+        font-size: 16px;
+        padding: 8px 16px;
+        background-color: var(--cor-texto-api);
+        border-radius: 32px;
+        color: var(--cor-de-fundo-pagina);
+    }
+
+    .contatos {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .html {
+        font-family: var(--font-texto-menu);
+        font-size: 16px;
+        padding: 8px 16px;
+        background-color: var(--cor-texto-menu2);
+        border-radius: 32px;
+        color: var(--cor-de-fundo-pagina);
+    }
+
+    .css {
+        font-family: var(--font-texto-menu);
+        font-size: 16px;
+        padding: 8px 16px;
+        background-color: var(--cor-do-css);
+        border-radius: 32px;
+        color: var(--cor-de-fundo-pagina);
+    }
+
+    .js {
+        font-family: var(--font-texto-menu);
+        font-size: 16px;
+        padding: 8px 16px;
+        background-color: var(--cor-texto-menu1);
+        border-radius: 32px;
+        color: var(--cor-de-fundo-pagina);
+    }
+
+    .redux-name {
+        font-family: var(--font-texto-menu);
+        font-size: 16px;
+        padding: 8px 16px;
+        background-color: var(--cor-botao);
+        border-radius: 32px;
+        color: var(--cor-de-fundo-pagina);
+    }
+
+    .setas-prev {
+        display: flex;
+        column-gap: 16px;
+        margin-top: 60px;
+        justify-content: end;
+    }
 }
