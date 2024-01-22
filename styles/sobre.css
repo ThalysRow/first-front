@@ -1,3 +1,7 @@
+.sobre-dados, .container-geral {
+    display: none;
+}
+
 .sobre {
     margin-left: 24px;
     margin-top: 40px;
@@ -53,4 +57,80 @@
     font-family: var(--font-texto-menu);
     color: var(--cor-botao);
     font-weight: 500;
+}
+
+@media screen and (min-width: 1280px){
+
+    .descricao-sobre, .texto-skills, .skills, .foto-sobre, .sobre {
+        display: none;
+    }
+
+    .sobre-dados{
+        display: flex;
+        margin-top: 80px;
+        margin-left: 90px;
+        width: 269px;
+        height: 164px;
+    }
+
+    .container-geral{
+        display: flex;
+        margin-top: 40px;
+        align-items: center;
+    }
+
+    .description img {
+        margin-left: 90px;
+    }
+
+    .description p {
+        font-family: var(--font-texto-apresentacao);
+        font-size: 24px;
+        margin-right: 20px;
+        color: var(--cor-botao);
+        letter-spacing: 2px;
+    }
+    .description {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .skills-description {
+        margin-top: 48px;
+        margin-left: 90px;
+        font-family: var(--font-texto-menu);
+        font-size: 52px;
+        color: var(--cor-botao);
+    }
+
+    .icones-description {
+        margin-top: 32px;
+        margin-left: 90px;
+        display: flex;
+        align-items: center;
+        column-gap: 53.5px;
+    }
+
+    .react-icon, .node-icon, .sql-icon {
+        width: 124px;
+        height: 124px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .react-icon p, .node-icon p, .sql-icon p {
+        font-family: var(--font-texto-menu);
+        font-size: 28px;
+        color: var(--cor-botao);
+    }
+
+    .container-right img {
+        width: 495px;
+        height: 584.19px;
+    }
+
+    .test {
+        margin-left: 20px;
+    }
 }
