@@ -61,7 +61,7 @@
 
 @media screen and (min-width: 1280px){
 
-    .descricao-sobre, .texto-skills, .skills, .foto-sobre, .sobre {
+    .descricao-sobre, .texto-skills, .skills, .foto-sobre, .sobre img {
         display: none;
     }
 
